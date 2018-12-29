@@ -1,0 +1,18 @@
+@import url('fonts.css');
+@import url('reset.css');
+@import url('bootstrap.css');
+@import url('style.css');
+
+/* Main Structure */
+
+@import url('header.css');
+@import url("slider.css");
+@import url('main-content.css');
+@import url('news-content.css');
+@import url('gallery.css');
+@import url('footer.css');
+@import url('forms.css');
+
+/* Owl Carousel */
+
+@import url('owl.carousel.css');

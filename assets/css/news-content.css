@@ -1,0 +1,45 @@
+.news-container {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+div.news-content {
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+div.news-content h2 {
+	font-size: 1.625em;
+	color: #666;
+	margin-bottom: 28px;
+}
+
+div.news-content .pctr-field {
+	width: 300px;
+	height: 280px;
+}
+
+div.news-content .pctr_one {
+	background-image: url('../img/news/new_1_sm.jpg');
+}
+
+div.news-content .pctr_two {
+	background-image: url('../img/news/new_2_sm.jpg');
+}
+
+div.news-content .pctr_tree {
+	background-image: url('../img/news/new_3_sm.jpg');
+}
+
+div.news-content .txt-field p {
+	margin-top: 29px;
+	margin-bottom: 20px;
+}
+div.news-content .txt-field p:first-child {
+	margin-bottom: 25px;
+}
+div.news-content .txt-field a {
+	color: #ff5d30;
+	text-decoration: none;
+}

@@ -1,0 +1,103 @@
+footer.main-footer {
+	background-color: #ededed;
+
+}
+
+footer.main-footer .footer-container {
+	margin-top: 27px;
+}
+
+footer.main-footer .footer-container .newsletter {
+
+}
+
+.footer_item_wrap {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.footer-container .newsletter p{
+	margin-bottom: 14px;
+}
+.footer-container .social a {
+	display: inline-block;
+	width: 130px;
+	text-decoration: none;
+	color: #989898;
+	margin-bottom: 22px;
+}
+
+
+.footer-container .social i {
+	background-color: #333;
+	border-radius: 100%;
+	padding: 8px;
+	color: #fff;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+.footer-container .social a.linked_in:hover i {
+	background-color: #0077b5;
+}
+.footer-container .social a.pinterest:hover i {
+	background-color: #C92228;
+}
+.footer-container .social a.twitter:hover i {
+	background-color: #1da1f2;
+}
+.footer-container .social a.rss:hover i {
+	background-color: #f26522;
+}
+
+.footer-container div.blog .blog-item {
+	margin-bottom: 12px;
+}
+
+.footer-container div.blog .blog-item p {
+	width: 266px;
+	font-size: 0.75em;
+	text-align: left;
+}
+
+.footer-container div.blog .blog-item a {
+	color: #ff5d30;
+	font-size: 0.75em;
+	float: right;
+	text-decoration: none;
+}
+
+.footer-container div.blog span {
+	display: block;
+	font-size: 0.69em;
+	color: #757575;
+	padding-bottom: 16px;
+}
+
+.footer-container div.twitter p {
+	font-size: 0.75em;
+	color: #989898;
+	margin-bottom: 22px;
+}
+
+.footer-container div.twitter a {
+	color: #ff5d30;
+	font-size: 0.75em;
+	float: right;
+	text-decoration: none;
+}
+
+.copyright-container {
+	background-color: #e2e2e2;
+}
+
+.copyright-container p{
+	display: inline-block;
+	position: relative;
+	padding: 23px 0;
+	color: #919191;
+	font-size: 0.75em;
+}
+
+.copyright-container div + div p {
+	float: right;
+}

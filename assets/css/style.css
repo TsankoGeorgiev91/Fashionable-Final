@@ -1,0 +1,45 @@
+* {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+}
+
+p {
+	font-size: 0.81em;
+	color: #666;
+}
+
+h2 {
+	font-size: 1.625em;
+	color: #666;
+}
+
+h4 {
+	font-style: italic;
+	font-size: 1.25em;
+	color: #666;
+	margin-bottom: 16px;
+}
+
+h5 {
+	font-weight: 600px;
+	font-size: 0.81em;
+	color: #989898;
+	line-height: 15px;
+}
+
+.container-fluid {
+	max-width: 990px;
+	margin: 0 auto;
+}
+
+.clrf:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+/* Colors */
+
+.tx_clr_hover {
+	color: #bdbdbf;
+}

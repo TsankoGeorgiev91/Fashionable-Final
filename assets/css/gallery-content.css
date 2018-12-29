@@ -1,0 +1,97 @@
+.gallery-container {
+	margin-bottom: 40px;
+}
+.gallery-container h2 {
+	padding-bottom: 28px;
+}
+
+.pctr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.big-pctr {
+	width: 100%;
+	height: 250px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+	
+}
+
+.small_pctr {
+	max-width: 378px;
+	float: right;
+}
+
+.sm-pctr {
+	width: 130px;
+	height: 120px;
+	float: left;
+	display: inline-block;
+	margin-right: 15px;
+}
+.sm-pctr:last-child {
+	margin-right: 0;
+}
+div.gallery-container .col-lg-7, .col-md-7, .col-xs-12,
+.col-lg-5, .col-md-5, .col-sm-12, .col-xs-12,
+.col-lg-4, .col-md-4, .col-sm-2, .col-xs-6 {
+	padding-left: 0;
+	padding-right: 0;
+}
+div.gallery-container .row {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+@media only screen and ( max-width: 1200px ) {
+	
+}
+@media only screen and ( max-width: 992px ) {
+	.big-pctr{
+		width: 856px;
+		
+	}
+	.sm-pctr {
+		width: 120px;
+		height: 120px;
+	}
+	.small_pctr {
+		max-width: 856px;
+	}
+}
+@media only screen and ( max-width: 768px ) {
+	.big-pctr{
+		width: 738px;
+		height: 350px;
+	}
+	.sm-pctr {
+		width: 100px;
+		height: 100px;
+	}
+	.small_pctr {
+		max-width: 738px;
+	}
+}
+
+@media only screen and ( max-width: 576px ) {
+	.big-pctr{
+		max-width: 100%;
+		height: 280px;
+		overflow-x: hidden;
+	}
+	.big-pctr img {
+		display: block;
+		position: relative;
+		right: 100px;
+	}
+	.sm-pctr {
+		width: 150px;
+		height: 150px;
+	}
+	.sm-pctr img {
+		width: 100%;
+	}
+}
