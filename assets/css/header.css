@@ -204,12 +204,18 @@ div.close-cross:after {
 	header nav.main-nav ul li:hover > ul {
 		display: none;
 	}
+	header .conteiner-fluid {
+		box-shadow: 0 5px 8px -3px rgba( 0, 0, 0, 0.5 );
+	}
 }
 
 
 @media only screen and ( max-width: 992px ) {
 	header nav.canvas-menu {
 		width: 100%;
+	}
+	header .conteiner-fluid {
+		box-shadow: 0 5px 8px -3px rgba( 0, 0, 0, 0.5 );
 	}
 }
 
@@ -220,6 +226,9 @@ div.close-cross:after {
 	#canvas-btn {
 		margin-right: 15px;
 	}
+	header .conteiner-fluid {
+		box-shadow: 0 5px 8px -3px rgba( 0, 0, 0, 0.5 );
+	}
 }
 
 @media only screen and ( max-width: 576px ) {
@@ -228,6 +237,9 @@ div.close-cross:after {
 	}
 	#canvas-btn {
 		margin-right: 15px;
+	}
+	header .conteiner-fluid {
+		box-shadow: 0 5px 8px -3px rgba( 0, 0, 0, 0.5 );
 	}
 }
 	
